@@ -1,34 +1,39 @@
+.*{
+	box-sizing:content-box;
+}
+
 .menu{
 	display: block;
 	padding: 0;
 	list-style: none;
 	vertical-align: middle;
-}
+}	
 
 
-p{
+a{
 	font-weight: normal;
 	color:white;
-	font-size: 16px;
-	font-family:serif;
+	font-size: 18px;
+	font-family:Impact;
 	text-align: center;
 	padding: 0;
+	text-decoration: none;
 
 }
 
 .menu_item{
 	display: inline-block;
-	background-color: #BA55D3;
-	height: 40px;
+	background-color: rgb(166,77,255);
+	/*height: 40px;*/
 	width: 129px;	
 	margin-left: -4px;
-	padding: 0;
+	padding: 10px;
+	text-align:center;
 
 }
 
 
 .menu_item:hover{
-	background-color: #EEE9E9;
-	color: #8B8989;
-
+	background-color: rgb(238,238,238);
+	color: rgb(201,180,161);
 }
